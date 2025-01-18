@@ -1,0 +1,19 @@
+.btn {
+  padding: 12px 27px !important;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.btn-sm {
+  padding: 12px 32px;
+}
+
+.btn-success {
+  background: #27ae60 !important;
+  transition: 0.3s ease-in;
+
+  &:hover {
+    background: #1b924d !important;
+    transition: 0.3s ease-out;
+  }
+}

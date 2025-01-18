@@ -1,0 +1,21 @@
+.form-control {
+  border: none;
+  border-bottom: 1px solid #828282;
+  border-radius: 0;
+  background: transparent;
+  color: #fff !important;
+  font-weight: 400;
+
+  &:focus {
+    background: transparent;
+    outline: none;
+  }
+
+  &::-webkit-input-placeholder {
+    color: #4f4f4f !important;
+  }
+}
+
+.message {
+  border: 1px solid #828282 !important;
+}
